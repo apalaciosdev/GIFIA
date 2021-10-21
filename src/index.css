@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.text-gradient {
+    font-family: 'Fredoka One', serif;
+    color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    background-clip: text;
+    animation: gradient 20s ease infinite;
+    background-size: 500%; 
+    font-size: 80px;
+    margin-bottom: -30px;   
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.general-body{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+@media (max-width:953px) {
+    .general-body  {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+  
+  @media (max-width:680px) {
+    .general-body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+  }
+  
+  @media (max-width:427px) {
+    .general-body  {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }

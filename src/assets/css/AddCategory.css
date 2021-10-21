@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  font:12pt Arial;
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:70%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(22, 160, 133),
+   2px 2px 0 rgb(22, 160, 133),
+   3px 3px 0 rgb(22, 160, 133),
+   4px 4px 0 rgb(22, 160, 133),
+   5px 5px 0 rgb(22, 160, 133),
+   6px 6px 0 rgb(22, 160, 133),
+   7px 7px 0 rgb(22, 160, 133)
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 188, 156);
+  
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(26, 188, 156);
+  color:white;
+  border:none;
+  cursor: pointer;
+}
+
+.field>button:hover{
+  padding:0.6em 0.8em;
+  background-color:rgb(53, 180, 155);
+  color:white;
+  border:none;
+  transition: 200ms;
+}
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 400px;
+  float: left;
+}
+
+input:focus, select:focus, select, input.form-control:focus {
+
+  outline:none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+
+}
+
+
+@media (max-width:623px) {
+  input {
+      color: grey;
+      font-size: 1.2rem;
+      width: 300px;
+      float: left;
+  }
+}
+
+@media (max-width:523px) {
+  input {
+      color: grey;
+      font-size: 1.2rem;
+      width: 200px;
+      float: left;
+  }
+}
+
+@media (max-width:427px) {
+  input {
+      color: grey;
+      font-size: 1.2rem;
+      width: 170px;
+      float: left;
+  }
+}
