@@ -23,10 +23,6 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <>
-      {/* <form onSubmit={handleSubmit}>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
-      </form> */}
-
       <form onSubmit={handleSubmit}>
         <div className="field" id="searchform">
           <input type="text" id="searchterm" placeholder="what are you searching for?" value={inputValue} onChange={handleInputChange} />

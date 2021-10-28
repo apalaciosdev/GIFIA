@@ -9,10 +9,6 @@ export const getGifs = async (category, quantity) => {
   const response = await fetch(url)
   const {data} =  await response.json()
 
-  console.log(data)
-
-
-
   const gifs = data.map( img => {
     return{
       id: img.id,

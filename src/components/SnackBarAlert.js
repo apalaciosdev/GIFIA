@@ -13,6 +13,7 @@ export const SnackBarAlert =  forwardRef((props, ref) => {
       }, 2500);
     },
   }));
+  
   return (
     <div
       className="snackbar"
