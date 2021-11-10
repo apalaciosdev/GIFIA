@@ -14,7 +14,7 @@ The main gif provider it's Giphy, but it has a problem: if you want to download 
 And if you want to implement a gif in your web or project, Giphy give you the link source, but it has a problem: **the watermark**.
 <br />
 
-<img src="/public/watermark.gif?" alt="example" width="300"/>
+<img src="/public/watermark.gif?" alt="example" width="500"/>
 
 
 <br />
