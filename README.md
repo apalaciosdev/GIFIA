@@ -1,28 +1,26 @@
-## Latest commits
+# Welcome to GIFIA!
+GIFIA is a Gif filter and searcher that uses the Giphy API and provides a lot of Gifs.
+If you want a simple and minimalist searcher for download or implement Gifs in your web, GIFIA it's perfect for you.
 
-### 2110091135
-- Created the Downloader function to download Gifs
+## Why I recommend use GIFIA?
+Often I need use Gifs for projects. 
+The main gif provider it's Giphy, but it has a problem: if you want to download any gif, you have to follow a lot steps (in my opinion) for do it. <br />
+And if you want to implement a gif in your web or project, Giphy give you the link source, but it has a problem: **the watermark**. 
+![](/public/watermark.png?)
 
-### 2110101820
-- Refactorized the Downloader function to the helper 'handleDownload.js'
-- Added new icons (download, copy code & like)
+<br />
+For all these reasons, I developed a simple and minimalist searcher for do this 2 things, without unnecesary extra steps or watermarks.
 
-### 2110121335
-- Created new custom hook called 'useCounter'
-- Added new counter that his function is indicate how many gifs will render (component 'QuantityRenderGifs.js')
 
-### 2110121605
-- Added new search bar style
-- Refactorized a few lines of CSS into de file 'AddCategory.css'
+## Basic Usage
+- 1.- Introduce the category you want to search.
+- 2.- Choose the quantity of Gifs you want to render.
+- 3.- Search and check out.
+- 4.- When you have found the gif you were looking for, you can download it or copy the HTML code. 
 
-### 2110131340
-- Added new title style
-- Added new counter style
-- Refactorized some lines of CSS into new files that are located in '/src/assets/css'
-- Added some responsive styles to gif grids
+## Functionalities
 
-### 2110211100
-- Refactorized come lines of code
 
-### 2110211345
-- Added new SnackBar Component
+- Download Gifs without watermarks of Gify.
+- Copy HTML code to implement in your web.
+> Responsive code soon.
