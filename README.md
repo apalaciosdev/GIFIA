@@ -3,7 +3,7 @@ GIFIA is a Gif filter and searcher that uses the Giphy API and provides a lot of
 If you want a simple and minimalist searcher for download or implement Gifs in your web, GIFIA it's perfect for you.
 <br />
 
-<img src="/public/gifia-preview.gif?" alt="example" width="300"/>
+<img src="/public/gifia-preview.gif?" alt="example" width="600"/>
 
 
 ## Why I recommend use GIFIA?
@@ -14,7 +14,7 @@ The main gif provider it's Giphy, but it has a problem: if you want to download 
 And if you want to implement a gif in your web or project, Giphy give you the link source, but it has a problem: **the watermark**.
 <br />
 
-<img src="/public/watermark.gif?" alt="example" width="500"/>
+<img src="/public/watermark.gif?" alt="example" width="300"/>
 
 
 <br />
