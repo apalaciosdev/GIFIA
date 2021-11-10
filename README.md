@@ -6,7 +6,8 @@ If you want a simple and minimalist searcher for download or implement Gifs in y
 Often I need use Gifs for projects. 
 The main gif provider it's Giphy, but it has a problem: if you want to download any gif, you have to follow a lot steps (in my opinion) for do it. <br />
 And if you want to implement a gif in your web or project, Giphy give you the link source, but it has a problem: **the watermark**. 
-![](/public/watermark.png?)
+<img src="/public/watermark.gif?" alt="drawing" width="300"/>
+
 
 <br />
 For all these reasons, I developed a simple and minimalist searcher for do this 2 things, without unnecesary extra steps or watermarks.
