@@ -1,4 +1,4 @@
-# Welcome to <a href="https://apalaciosdev.github.io/GIFIA-DEPLOYMENT/">GIFIA</a>!
+# Welcome to <a href="https://apalaciosdev.github.io/gifia-deploy/">GIFIA</a>
 GIFIA is a Gif filter and searcher that uses the Giphy API and provides a lot of Gifs.
 If you want a simple and minimalist searcher for download or implement Gifs in your web, GIFIA it's perfect for you.
 <br />
